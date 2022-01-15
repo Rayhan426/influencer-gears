@@ -79,8 +79,17 @@ grid-template-columns: repeat(2,1fr);
   .star{
     color: orange;
 }
+.item-title{
+    color: #18191F;
+    font-size: 28px;
+}
 .rating{
-    color: black;}
+    color:#787885;
+}
+.item-details{
+    color: #787885;
+    font-size: 14px;
+}
 
   .best-collection{
     display: grid;
@@ -98,4 +107,42 @@ grid-template-columns: repeat(2,1fr);
     border-radius: 10px;
     margin-left: 1500px;
     font-weight: bold;
+    padding-top: 50px;
+}
+/* section tow end style 
+------------------------ */
+footer{
+    background-color: rgb(21, 14, 53);
+    color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+.footer-title{
+    padding-top: 10px;
+    font-size: 24px;
+}
+/* footer end  */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    
+     .best-collection{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+     }
+     footer{
+         width: 100%;
+     }
+    
+     .see-more-link{
+        margin-left: 500px;
+    }
+    .container{
+        margin-left: 0px;
+    }
+    
+.influencers{
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+}
 }
